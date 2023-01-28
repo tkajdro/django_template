@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin
 
 from . import models
 
-class CustomUserAdmin(UserAdmin)
+class CustomUserAdmin(UserAdmin):
     model = get_user_model()
 
 

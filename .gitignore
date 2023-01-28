@@ -1,4 +1,6 @@
-reated by https://www.toptal.com/developers/gitignore/api/pycharm,windows,django,venv
+env/.env
+
+# Created by https://www.toptal.com/developers/gitignore/api/pycharm,windows,django,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,windows,django,venv
 
 ### Django ###
@@ -134,9 +136,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
+# env/
 venv/
-ENV/
+# ENV/
 env.bak/
 venv.bak/
 
